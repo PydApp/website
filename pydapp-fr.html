@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Présentation des apps</title>
+  <style>
+    body { margin:0; padding:24px; font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; background:#f5f6f8; color:#1f2937; }
+    .page { max-width:900px; margin:0 auto; }
+
+    /* Ligne centrée */
+    .links-row {
+      display:flex;
+      justify-content:center;
+      gap:16px;
+      margin-bottom:18px;
+      font-size:0.98rem;
+    }
+    .links-row a { color:#2563eb; text-decoration:none; padding:6px 8px; }
+    .links-row a:focus, .links-row a:hover { text-decoration:underline; }
+
+    table.apps { width:100%; border-collapse:collapse; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; }
+    table.apps caption { caption-side:top; text-align:left; font-weight:700; font-size:1.15rem; padding:16px 18px; color:#111827; }
+    table.apps td { border-top:1px solid #e5e7eb; padding:16px 18px; vertical-align:middle; }
+    table.apps tr:first-child td { border-top:none; }
+td.icon {
+  width: 124px;
+  height: 124px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+}
+td.icon img {
+  display: block;
+  width: 124px;
+  height: 124px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+td.icon a { display:inline-flex; align-items:center; justify-content:center; width:56px; height:56px; border-radius:14px; background:#eef2ff; text-decoration:none; font-size:28px; }
+    td.icon a:hover { background:#dbeafe; }
+    td.text { font-size:1rem; line-height:1.5; color:#374151; }
+
+    @media (max-width:640px) {
+      body{padding:12px;}
+      .links-row { gap:12px; font-size:0.95rem; }
+      td.icon a{width:48px;height:48px;font-size:24px;}
+    }
+.image-basse {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.image-basse img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- Ligne de 4 mots centrés -->
+    <p class="links-row" aria-label="Liens rapides">
+      <a href="pydapp-en.html">Welcome</a>
+      <a href="pydapp-fr.html">Bienvenue</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="engagement-de-confidentialite.html">Confidentialité</a>
+    </p>
+
+    <table class="apps">
+      <tbody>
+        <tr>
+          <td class="icon"><a href="PHOTOMDFR/PhotoMetaDataFR/Bienvenue.html" aria-label="Ouvrir l'application 1"><img src="images/photometadata-122-124-1.jpg" class="i5"></a></td>
+          <td class="text"><strong>PhotoMetaData</strong> est une app très utile pour tout photographe professionnel ou amateur.
+Elle permet de renseigner les métadonnées après la séance de photos.</td>
+        </tr>
+        <tr>
+          <td class="icon"><a href="MRMFR/MyRCModelsFR/Bienvenue.html" aria-label="Ouvrir l'application 2"><img src="images/icon-60-402x-122-124-1.jpg" class="i5"></a></td>
+          <td class="text"><strong>MyRCModels</strong> a été conçu pour servir de carnet de note pour les aéromodélistes sur le terrain de vol. Il permet de gérer des informations concernant vos modèles RC (avion, planeur, hélicoptère).</td>
+        </tr>
+        <tr>
+          <td class="icon"><a href="WFXFR/WindFXFR/Bienvenue.html" aria-label="Ouvrir l'application 3"><img src="images/icon-large-122-124-1.jpg" class="i5"></a></td>
+          <td class="text">Pour toutes les activités liées à l’utilisation du vent (voile, parapente,…) l’analyse de la météo de <strong>WindFX</strong> permet de choisir chaque jour le ou les sites les plus favorables en fonction de leurs caractéristiques : type de site, orientations du vent, vitesse minimum </td>
+        </tr>
+        <tr>
+          <td class="icon"><a href="DYCA/Design_Your_Calc/Welcome.html" aria-label="Ouvrir l'application 4"><img src="images/icalc_114-122-124-1.jpg" class="i5"></a></td>
+          <td class="text">Le but est de rendre l&apos;interface plus adaptable à la &quot;mobilité&quot;, à la vue et à la perception de l&apos;espace de chaque utilisateur. En un mot, rendre l&apos;interface plus confortable pour tout le monde. Pour illustrer ce concept, voici une application de calculatrice dans laquelle vous pouvez déplacer et redimensionner les touches d&apos;affichage et les touches de nombre, d&apos;opération et de gestion de la mémoire.</td>
+        </tr>
+        <tr>
+          <td class="icon"><a href="VCFR/VCountdownFR/Bienvenue.html" aria-label="Ouvrir l'application 5"><img src="images/icon-60-402x-122-1-124-1.jpg" class="i5"></a></td>
+          <td class="text"><strong>Minuteur vocal</strong> vous aide à rester concentré sur d&apos;autres tâches pendant un compte à rebours.</td>
+        </tr>
+        <tr>
+          <td class="icon"><a href="WGFR/WordGeneratorFR/Bienvenue.html" aria-label="Ouvrir l'application 6"><img src="images/icon256.png" class="i5"</a></td>
+          <td class="text">L’objectif de <strong>Word Generator</strong> est de créer des mots nouveaux dans toutes les langues dont l’alphabet est constitué de lettres.
+Pour tous ceux qui ont besoin de nommer de nouveaux concepts, de nouvelles idées, de nouveaux produits, de nouveaux personnages.</td>
+        </tr>
+      </tbody>
+    </table>
+<div class="image-basse">
+  <img src="images/mwmac-141-143-1.jpg" alt="Illustration" />
+</div>
+
+  </div>
+</body>
+</html>
